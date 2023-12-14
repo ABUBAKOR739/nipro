@@ -1,0 +1,37 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+    .ab-img img{height: 250px;}
+    .c-pric{ margin-bottom: 50px;}
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    .about{padding: 0 50px;}
+    .c-pric{ margin-bottom: 50px;}
+    .c-pric{ padding: 90px;
+    }
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+    .welcome{padding: 5px 150px;}
+    .b-content{padding: 5px 150px;}
+    .nipro-card{padding: 5px 150px;}
+    .about{padding: 5px 150px;}
+    .card{padding: 5px 150px;}
+    .c-pric{ margin-bottom: 50px;
+   }
+ }
+ 
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+ /* Extra large devices (large desktops, 1400px and up) */
+ @media (min-width: 1400px) {}
